@@ -1,0 +1,55 @@
+#container
+{
+  height:600px;
+  overflow:scroll;
+  overflow-x:hidden;
+}
+
+#card
+{
+    width: 800px;
+    margin:auto; 
+    background-color: rgb(221, 255, 183);
+    margin-top:125px;
+}
+
+#profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #3bce25;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    line-height: 130px;
+    margin: 20px 0;
+  }
+
+  #category
+  {
+      margin-left: 680px;
+      background-color: rgb(245, 201, 27);
+      border-radius: 5px;
+      padding: 6px;
+      color: #fff;
+  }
+
+  .btn {
+    background-color: #868def;
+    cursor: pointer;
+  }
+
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+  #categories
+  {
+      margin-top: 60px;
+      margin-left: 600px;
+  }
+
+  .hide {
+    display: none;
+  }
